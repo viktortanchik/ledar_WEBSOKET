@@ -1,0 +1,32 @@
+
+evgen@evgen-HP-Compaq-8200-Elite-SFF-PC:~$ sudo su
+root@evgen-HP-Compaq-8200-Elite-SFF-PC:/home/evgen# cd /
+root@evgen-HP-Compaq-8200-Elite-SFF-PC:/# cd dev
+root@evgen-HP-Compaq-8200-Elite-SFF-PC:/dev# chown evgen ttyUSB0
+root@evgen-HP-Compaq-8200-Elite-SFF-PC:/dev# chown evgen ttyUSB0
+root@evgen-HP-Compaq-8200-Elite-SFF-PC:/dev#
+
+
+uvicorn main2:app --reload
+
+
+
+########################################
+   function cans (Xnow,Ynow,Xnex,Ynex) {
+                let canvas = document.getElementById('canvas');
+                console.log(canvas)
+                let ctx = canvas.getContext('2d');
+                console.log(canvas.getContext('2d'))
+                let x = 500;
+                let y = 500;
+                ctx.beginPath();
+                ctx.moveTo(x + Xnow, y + Ynow);
+                ctx.lineTo(x + Xnex, y + Ynex);
+                ctx.stroke();
+                console.log("Xnow",Xnow);
+                console.log("Ynow",Ynow);
+                console.log("Xnex",Xnex);
+                console.log("Ynex",Ynex);
+            };
+#####
+
